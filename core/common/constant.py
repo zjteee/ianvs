@@ -54,6 +54,8 @@ class ModuleType(Enum):
     # JOINT INFERENCE
     EDGEMODEL = "edgemodel"
     CLOUDMODEL = "cloudmodel"
+    DRAFTER = "drafter"
+    VERIFIER = "verifier"
 
     # Dataset Preprocessor
     DATA_PROCESSOR = "dataset_processor"

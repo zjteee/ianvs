@@ -157,6 +157,10 @@ class ParadigmBase:
                     ModuleType.CLOUDMODEL.value),
                 hard_example_mining=self.module_instances.get(
                     ModuleType.HARD_EXAMPLE_MINING.value),
+                drafter=self.module_instances.get(
+                    ModuleType.DRAFTER.value),
+                verifier=self.module_instances.get(
+                    ModuleType.VERIFIER.value),
                 LCReporter_enable=False
             )
 
